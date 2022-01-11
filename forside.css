@@ -1,0 +1,104 @@
+#first_section text {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  background-color: black;
+}
+h1 {
+  width: 100%;
+  height: auto;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(7rem, 12.5vw, 14rem);
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20%;
+  justify-content: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+}
+
+.logo a {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white;
+}
+footer {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+/* KOPIERET FRA DANNI HER  */
+/* header */
+.banner {
+  background: #5000ca22;
+  padding: 2rem;
+}
+
+.banner ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* burgermenu */
+.toggle-btn {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+/* @media (max-width: 600px) { */
+.toggle-btn {
+  background: transparent;
+  border: none;
+  display: block;
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+nav {
+  display: none;
+}
+
+nav.shown {
+  border-top: 1px solid white;
+  padding-top: 1rem;
+  display: flex;
+  flex: 1 1 100%;
+  flex-flow: column;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: column;
+}
+
+/* KOPIERET FRA DANNI SLUT    */
+
+/* #second_section img {
+  background-image: white;
+} */
+/* @media (max-width: 700px) {
+  h1 {
+    font-size: 8rem;
+  }
+} */

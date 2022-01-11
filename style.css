@@ -1,0 +1,158 @@
+.headercontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.some {
+  display: flex;
+  gap: 6px;
+}
+
+#first_section img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* Hover her  */
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Overlay starter her */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: black;
+}
+
+.container:hover .overlay {
+  opacity: 50%;
+}
+
+.text {
+  color: white;
+  font-size: clamp(1rem, 2.5vw, 4rem);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Kopieret fra forside  */
+
+body {
+  background-color: black;
+}
+h1 {
+  width: 100%;
+  height: auto;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 180px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20%;
+  justify-content: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+}
+
+.logo a {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white;
+}
+footer {
+  text-align: center;
+  color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60%;
+}
+/* HEADER HER  */
+.banner {
+  background: #5000ca22;
+  padding: 2rem;
+}
+
+.banner ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* burgermenu */
+.toggle-btn {
+  display: none;
+  color: white;
+}
+
+/* @media (max-width: 600px) { */
+.toggle-btn {
+  background: transparent;
+  border: none;
+  display: block;
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+nav {
+  display: none;
+}
+
+nav.shown {
+  border-top: 1px solid white;
+  padding-top: 1rem;
+  display: flex;
+  flex: 1 1 100%;
+  flex-flow: column;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: column;
+}
+
+/* HEADER SLUT    */
+
+/* @media (max-width: 700px) {
+  .overlay {
+    font-size: 1rem;
+  }
+} */
+button.toggle-btn {
+  font-size: 30px;
+}
